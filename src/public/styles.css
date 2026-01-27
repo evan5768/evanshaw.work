@@ -52,6 +52,7 @@ footer {
     display: flex;
     justify-content: space-between;
     border-top: 2px solid black;
+    font-size: 18px;
 }
 
 .footerItems {
@@ -202,10 +203,8 @@ footer {
     white-space: nowrap;
     line-height: 1em;
     font-family: helvetica;
-    font-weight: 600;
     font-style: normal;
-    letter-spacing: .2em;
-    text-transform: uppercase;
+    /*letter-spacing: .2em;*/
     text-decoration: none;
 }
 
@@ -462,10 +461,27 @@ body {
     padding-top: 35px;
 }
 
-.button {
-    text-transform: uppercase;
-    font-family: helvetica;
-    font-weight: 700;
-    padding: 0 20px;
-    height: auto;
+   .button {
+        background-color: #000000;
+        color: #FFFFFF;
+        padding: 10px;
+        border-radius: 10px;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        margin:10px;
+        cursor:pointer;
+        height:80px;
+        width: 300px;
+        font-size:20px;
+        font-weight:600;
+
+
+    }
+    
+    .button:hover {
+        background-color: gray;
+    }
+
+.emailDirectly {
+    
 }
