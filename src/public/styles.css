@@ -88,9 +88,10 @@ footer {
 }
 
 .mobileHeader {
-    padding: 40px 20px;
-    box-shadow: 3px 3px 5px 6px #ccc;
+    padding: 25px 20px;
+    /*box-shadow: 3px 3px 5px 6px #000000;*/
     margin: auto -20px;
+    border-bottom: 2px solid black;
 }
 
 /* Nav menu */
@@ -189,11 +190,11 @@ footer {
 }
 
 .tabs {
-    padding: 0 20px;
+    padding: 50 20;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 50px;
+    gap: 40px;
     color: black;
     font-size: 18px;
     -webkit-text-size-adjust: 100%;
@@ -244,7 +245,7 @@ body {
 }
 
 .imgContainer {
-    margin-top: 7px;
+    margin-top: 20px;
     width: 70%;
     display: flex;
     /* height: 700px; */
@@ -277,7 +278,7 @@ body {
 .splitCol {
     display: flex;
     justify-content: space-between;
-    margin-top: 80px;
+    margin-top: 40px;
 }
 
 @media screen and (max-width: 1300px) {
@@ -330,7 +331,7 @@ body {
     display: flex;
     transition: transform 2s ease-in-out;
     position: relative;
-    top: 0;
+    top: 40;
     right: 0;
     bottom: 0;
     left: 0;
