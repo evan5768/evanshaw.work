@@ -82,15 +82,15 @@ footer {
     justify-content: space-between;
     border-bottom: 2px solid black;
     position: sticky;
-    padding: 0 50px;
+    padding: 10px 50px;
     /* makes up for body margin */
     margin: 0 -20px;
 }
 
 .mobileHeader {
-    padding: 25px 20px;
+    padding: 10px 20px;
     /*box-shadow: 3px 3px 5px 6px #000000;*/
-    margin: auto -20px;
+    margin: 0 -20px;
     border-bottom: 2px solid black;
 }
 
